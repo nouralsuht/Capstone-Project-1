@@ -6,9 +6,9 @@
 }
 
 :root {
-    --background: #e11429;
-    --section: #e74520;
-    --card: #e42f0f;
+    --background: #0f0b1f;
+    --section: #141025;
+    --card: #19142b;
     --text: #ffffff;
     --text-light: #c7c2d3;
     --primary: #a855f7;
@@ -372,22 +372,7 @@ body:has(#theme-toggle:checked) .theme-btn i::before {
     margin-bottom: 15px;
 }
 
-.about-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 20px;
-}
-
-.about-tags span {
-    background: rgba(168, 85, 247, .1);
-    color: var(--secondary);
-    border: 1px solid var(--border);
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: bold;
-}
+ 
 
 .education-box h4 {
     color: var(--primary);
@@ -736,21 +721,7 @@ footer {
     margin: 0;
 }
 
-.footer-social {
-    display: flex;
-    gap: 18px;
-}
-
-.footer-social a {
-    color: var(--text-light);
-    font-size: 20px;
-    transition: .3s ease;
-}
-
-.footer-social a:hover {
-    color: var(--primary);
-    transform: translateY(-3px);
-}
+ 
 
 /* ===== Responsive ===== */
 
