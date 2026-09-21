@@ -249,7 +249,7 @@ body:has(#theme-toggle:checked) .theme-btn i::before {
 
 .social a {
     color: var(--primary);
-    font-size: 30px;
+    font-size: 25px;
     transition: .3s ease;
 }
 
